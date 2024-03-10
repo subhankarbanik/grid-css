@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>keyboar</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        background-color: #4bb1d3;
+      }
+      #keyboard {
+        width: 90%;
+        height: auto;
+        margin: auto;
+        padding: 40px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        border-radius: 25px;
+        background-color: #242c2c;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+      }
+      #keyboard div {
+        height: 50px;
+        border-radius: 8px;
+        background-color: #2e3538;
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        color: #4bb1d3;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      #enter,
+      #shift {
+        grid-column: span 2;
+      }
+      #space {
+        grid-column: span 4;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="keyboard">
+      <div>~</div>
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>
+      <div>7</div>
+      <div>8</div>
+      <div>9</div>
+      <div>0</div>
+      <div>Delete</div>
+      <div>tab</div>
+      <div>Q</div>
+      <div>W</div>
+      <div>E</div>
+      <div>R</div>
+      <div>T</div>
+      <div>Y</div>
+      <div>U</div>
+      <div>I</div>
+      <div>O</div>
+      <div>P</div>
+      <div>\</div>
+      <div>caps</div>
+      <div>A</div>
+      <div>S</div>
+      <div>D</div>
+      <div>F</div>
+      <div>G</div>
+      <div>H</div>
+      <div>J</div>
+      <div>K</div>
+      <div>L</div>
+      <div id="enter">Enter</div>
+      <div>shift</div>
+      <div>Z</div>
+      <div>X</div>
+      <div>C</div>
+      <div>V</div>
+      <div>B</div>
+      <div>N</div>
+      <div>M</div>
+      <div><</div>
+      <div>></div>
+      <div id="shift">shift</div>
+      <div><span class="material-symbols-outlined"> language </span></div>
+      <div>control</div>
+      <div>option</div>
+      <div>alt</div>
+      <div id="space">space</div>
+      <div>alt</div>
+      <div>option</div>
+      <div><span class="material-symbols-outlined"> arrow_back </span></div>
+      <div>
+        <span class="material-symbols-outlined"> arrow_right_alt </span>
+      </div>
+    </div>
+  </body>
+</html>
